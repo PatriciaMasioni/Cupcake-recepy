@@ -1,0 +1,203 @@
+/*Haz que todo el documento utilize una tipografía de palo seco*/
+body{
+	font-family: "roboto", sans-serif;
+  font-weight: lighter;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: black;
+  background: rgba(137,232,247, 0.05);
+
+}
+
+header{
+  background-color: blue;
+  padding: 5rem;
+  padding-bottom: 0;
+}
+
+/*Haz que las listas no tengan un estilo de lista*/
+
+ul{
+	list-style-type: none;
+}
+
+.nav{
+  margin: 1rem;
+}
+
+#nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: solid 0.07rem blue;
+  padding: 0;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+}
+
+#container{
+  width: 60%;
+  border-left: solid blue 1rem;
+  padding: 3rem;
+
+
+}
+
+/*Haz que las listas no tengan un estilo de lista*/
+ul{
+	list-style-type: none;
+}
+
+.nav{
+  margin: 1rem;
+}
+
+#nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: solid 0.07rem blue;
+  padding: 0;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+#step1, #step2{
+  width: 70%;
+  padding: 0;
+}
+
+p.step1{
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+p{
+  font-size: 1.3rem;
+}
+
+#ingredients{
+  border-left: solid blue 0.07rem;
+  padding: 2rem;
+}
+
+
+/* Crea la clase "titulo" y aplícale el color que prefieras */
+
+header{
+  background-color: blue;
+  padding: 5rem;
+  padding-bottom: 0;
+}
+
+h1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.titulo{
+	color: #F9B233;
+  text-shadow: 2px 2px black;
+  font-family: "monserrat", "roboto", sans-serif;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: 2px, 2px, black;
+  margin: 0;
+}
+
+
+
+
+/* Crea la clase "menu" y selecciona la lista desordenada que hace
+de menú principal, haz que sus hijas (los elementos li) no tengan subrayado,
+tengan una tipografía bold y roja. Haz que cuando pongamos el ratón encima
+sean de otro color */
+
+a{
+  font-weight: bold;
+  color: #E9415B;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: white;
+  opacity: 0.6;
+}
+
+
+
+/* Crea la clase "titulo-receta" y selecciona los headings de segundo nivel y
+aplica el color que prefieras pero que tenga una transparencia de 0.5 */
+
+.titulo-receta{
+  color: rgba(249,178,51, 0.5);
+  font-size: 1.5rem;
+  font-family: "nunito", "roboto", sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px white;
+}
+
+
+/* Crea la clase "texto-informacion" y selecciona los headings de tercer nivel,
+aplica el color que prefieras y haz que la letra sea itálica */
+
+.texto-informacion{
+  color: #F7A41E;
+  font-style: italic;
+  font-family: "nunito","roboto", sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  font-weight: lighter;
+
+}
+
+
+/* Crea la clase "enlace" y selecciona el único enlace que hay, haciendo que
+se aplique un subrayado SÓLO cuando se situe el ratón encima de él */
+
+.enlace{
+  color: #E9415B;
+  text-transform: lowercase;
+}
+
+.enlace:hover{
+  text-decoration: underline;
+  color: #E9415B;
+
+}
+
+
+/*EXTRA!!
+
+1- El menú debe mostrarse en línea.
+
+2- Añade un div o un header con clase "cabecera" que contenga el heading de
+primer nivel y el menú principal. Dale un ancho de 600 píxeles y haz que se
+centre en la pantalla.
+
+3-Añade un div (o main o section) con la clase "contenido" que contenga el
+resto de las etiquetas HTML, dale un ancho de 600 píxeles y haz que
+se centre en la pantalla.
+*/
+
+
+footer{
+  height: 10vh;
+  background-color: blue;
+}
